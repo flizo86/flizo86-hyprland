@@ -61,32 +61,133 @@ button:hover {
     border-radius: 15px;
 }
 
-#workspaces button.active {
-    color: #000000;
-    background-color: #ffffff;
+#workspaces button:nth-child(1) {
+    background: #000000;
+    color: #ff5757;
     border-radius: 15px;
-    font-size: 28;
-}
-
-
-#workspaces button {
-    font-size: 28;
-    padding: 0 10px;
-    border-radius: 15px;
-    background-color: #000000;
-    color: #ffffff;
-}
-
-#workspaces button:hover {
     font-size: 28;
     padding: 0px 10px;
-    background: #ffffff;
-    color: #000000;
 }
 
-#workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 0px #ffffff;
+#workspaces button:nth-child(1):hover {
+    color: #000000;
+    background: #ff5757;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(1).active,
+button:nth-child(5):focus {
+    color: #000000;
+    background: #ff5757;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(2) {
+    background: #000000;
+    color: #54ace3;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(2):hover {
+    color: #000000;
+    background: #54ace3;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(2).active,
+button:nth-child(5):focus {
+    color: #000000;
+    background: #54ace3;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(3) {
+    background: #000000;
+    color: #ffc03a;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(3):hover {
+    color: #000000;
+    background: #ffc03a;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(3).active,
+button:nth-child(5):focus {
+    color: #000000;
+    background: #ffc03a;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(4) {
+    background: #000000;
+    color: #42dd82;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(4):hover {
+    color: #000000;
+    background: #42dd82;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(4).active,
+button:nth-child(5):focus {
+    color: #000000;
+    background: #42dd82;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(5) {
+    background: #000000;
+    color: #af79dc;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(5):hover {
+    color: #000000;
+    background: #af79dc;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button:nth-child(5).active,
+button:nth-child(5):focus {
+    color: #000000;
+    background: #af79dc;
+    border-radius: 15px;
+    font-size: 28;
+    padding: 0px 10px;
+}
+
+#workspaces button {
+    background: #000000;
 }
 
 #workspaces button.urgent {
@@ -122,10 +223,11 @@ button:hover {
 }
 
 #custom-power {
-    border: #ffffff solid 2px;
-    background-color: #000000;
+	font-size: 20px;
+	padding: 0 10px;
+    color: #ffffff;
     border-radius: 15px;
-    padding: 10px;
+    border: 2px solid #000000;
 }
 
 #window {
@@ -134,8 +236,7 @@ button:hover {
     border-radius: 15px;
 }
 
-#window,
-#workspaces {
+#window, #workspaces {
     margin: 0 4px;
 }
 
