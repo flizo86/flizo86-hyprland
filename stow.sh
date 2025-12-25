@@ -1,0 +1,1 @@
+stow -d ~/Projects/flizo86-hyprland/ -t ~/ dotfiles
