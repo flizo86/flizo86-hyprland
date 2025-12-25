@@ -1,6 +1,6 @@
 # flizo86-hyprland
 
-## I am mad ad GNU Stow
+## I am mad at GNU Stow
 
 My hyprland
 My second archinstall
