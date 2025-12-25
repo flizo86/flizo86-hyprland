@@ -1,0 +1,14 @@
+{
+	"name": "flizo86 hyprland #1 DEV",
+	"id": "com.flizo86.hyprland.dev",
+	"description": "",
+	"version":"0.1",
+	"author": "flizo86",
+	"homepage": "",
+	"dependencies": "",
+	"source": "Projects/flizo86-hyprland",
+	"subfolder": "dotfiles",
+	"setupscript":"setup.sh",
+	"restore":[],
+	"settings":[]
+}
