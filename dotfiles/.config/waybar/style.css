@@ -469,3 +469,35 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#user {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 2px solid #ffffff;
+}
+
+#taskbar {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 2px solid #ffffff;
+}
+
+#taskbar button:hover {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 2px solid #000000;
+}
+
+#taskbar button.active {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 2px solid #000000;
+}
