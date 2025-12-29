@@ -501,3 +501,11 @@ label:focus {
     padding: 0 10px;
     border: 2px solid #000000;
 }
+
+#custom-pacman {
+    padding: 0px 5px;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    transition: all .3s ease;
+    color: #ffffff;
+}

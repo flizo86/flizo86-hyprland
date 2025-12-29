@@ -11,9 +11,9 @@
     "margin-right": 10,
     "modules-left": [
         "custom/launcher",
-        "custom/pacman",
         "cpu",
         "memory",
+        "custom/pacman",
         "custom/media",
         "tray",
         "user",
@@ -238,5 +238,14 @@
         "Foot Server": "Terminal",
         ".*(steam_app_[0-9]+).*": "Game"
     }
+},
+"custom/pacman": {
+        "format": "󰅢 {}",
+        "interval": 30,   
+        "exec": "checkupdates | wc -l",
+        "exec-if": "exit 0",
+        "on-click": "kitty sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
+        "signal": 8,
+        "tooltip": true
 }
 }
